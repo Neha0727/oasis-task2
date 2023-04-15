@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    margin: 20px;
+}
+
+#logo img{
+    width: auto;
+    height: 100px;
+}
+#navbar ul {
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    color:white;
+}
+#home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+#home::before{
+    content: "";;
+    position: absolute;
+    background: url('./images/background.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.image img{
+    width: 200px;
+    height: auto;
+}
+.home-content{
+    margin-top: 100px;
+    font-size: 30px;
+    color: black;
+}
+.btn{
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: white;
+        color:black;
+        margin-top: 50px;
+        font-size: 15px;
+        cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(47, 157, 157);
+}
+#about{
+    margin-top: 200px;
+}
+#about .heading {
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin-top: 50px;
+     padding-top: 40px;
+     
+}
+#about .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    color: rgb(56, 55, 55);
+    line-height: 30px;
+}
+.about-me h1 {
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+.about-me p{
+    font-size: 18px;
+}
+.personal-info ul{
+    list-style: none;
+}
+.personal-info ul li{
+    margin-top: 10px;
+}
+.personal-info{
+    font-size: 18px;
+}
+.btn1{
+ 
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:rgb(47, 157, 157);
+    color:white;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(22, 83, 83);
+    color: black;
+}
+.work{
+    margin: 50px 0;
+    background-color: rgb(236, 235, 235);
+}
+.work .heading1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 124px;
+    padding: 0 50px;
+    
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px 40px;
+}
+.row .box{
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: white;
+    
+    height: auto;
+    width: 200px;
+}
+.box h1{
+    margin-bottom:20px ;
+    font-size: 20px;
+    color: rgb(47, 157, 157);
+}
+.box p{
+    color: rgb(56, 55, 55) ;
+}
+.row .box:hover{
+    transform: translateY(-10px);
+}
+.contact-container{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contact-container h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.row1 .col1{
+    padding: 20px;
+    margin: 40px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin: 5px;
+}
+input,
+select,
+textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.textarea_control{
+    grid-column: 1/ span 2;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+.col1 .text{
+    line-height: 30px;
+}
